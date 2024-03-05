@@ -65,7 +65,7 @@ const options = {
 
 scrapeKijiji(locations_param, params, options)
 	.then(() => {
-		console.log("ok");
+		console.log("done");
 	})
 	.catch((err) => {
 		console.error(err);
